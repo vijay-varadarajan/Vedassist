@@ -11,7 +11,39 @@ from .predictor import model_predict
 from django.db.models import Q , Sum
 
 
-@login_required(login_url='/login/')
+
+@login_required(login_url="/login/")
+def shop(request): 
+    if request.method == 'POST':
+        medicine_image=request.FILES.get('medicine_image')   
+        medicine_name = request.POST.get('medicine_name')
+        medicine_description =request.POST.get('medicine_description')
+
+        Medicine.objects.create(
+            medicine_name = medicine_name,
+            medicine_description = medicine_description,
+            medicine_image=medicine_image
+            )
+        return redirect('/shop/')
+    
+    queryset = Medicine.objects.all()
+    
+    if request.GET.get('search'):
+        search = request.GET.get('search')
+        queryset = queryset.filter(
+            Q(medicine_name__icontains = search) |
+            Q(medicine_description__icontains = search) |
+            Q(medicine_price__icontains = search) 
+            ).order_by('medicine_name').order_by('medicine_price')
+
+    paginator = Paginator(queryset,10)
+    page_number = request.GET.get("page", 1)
+    page_obj = paginator.get_page(page_number)
+    context = {'page_obj': page_obj, 'medicines': page_obj}
+
+    return render(request ,'shop.html',context)
+
+@login_required(login_url='login')
 def medicines(request):
     if request.method =="POST" :
         data = request.POST   # request for text frontend data to backend 
@@ -120,7 +152,7 @@ def predict(request):
     })
 
 
-
+@login_required(login_url='/login/')
 def delete_medicine(request, id):      #also regiser this rout to urls.py
     queryset = Medicine.objects.get(id=id)
     queryset.delete()
@@ -129,40 +161,8 @@ def delete_medicine(request, id):      #also regiser this rout to urls.py
 
 
 
-
     
-def shop(request): 
-    if request.method == 'POST':
-        medicine_image=request.FILES.get('medicine_image')   
-        medicine_name = request.POST.get('medicine_name')
-        medicine_description =request.POST.get('medicine_description')
-
-        Medicine.objects.create(
-            medicine_name = medicine_name,
-            medicine_description = medicine_description,
-            medicine_image=medicine_image
-            )
-        return redirect('/shop/')
-    
-    queryset = Medicine.objects.all()
-    
-    if request.GET.get('search'):
-        search = request.GET.get('search')
-        queryset = queryset.filter(
-            Q(medicine_name__icontains = search) |
-            Q(medicine_description__icontains = search) |
-            Q(medicine_price__icontains = search) 
-            ).order_by('medicine_name').order_by('medicine_price')
-
-    paginator = Paginator(queryset,10)
-    page_number = request.GET.get("page", 1)
-    page_obj = paginator.get_page(page_number)
-    context = {'page_obj': page_obj, 'medicines': page_obj}
-
-    return render(request ,'shop.html',context)
-
-    
-
+@login_required(login_url='/login/')
 def buy_medicine(request, id):      #also regiser this rout to urls.py
     queryset = Medicine.objects.get(id=id)
     print(queryset)

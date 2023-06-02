@@ -31,6 +31,7 @@
         </form>
          {% else %}
          <form method="POST" action="{% url 'login_page' %}">
+        {% csrf_token %}
          <a href="{% url 'login_page' %}"><button class="btn2" type="submit"> Login </button></a>
         
         {% endif %}

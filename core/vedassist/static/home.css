@@ -208,21 +208,15 @@
     transform: translateY(-16px);
     font-weight: bold;
     cursor: pointer;
-    color: rgb(163, 248, 134);
-    box-shadow: 5px 5px 5px greenyellow;
+    font-size: 70px;
+    color: rgb(214, 250, 5);
+    box-shadow: 5px 5px 5px rgb(61, 100, 3);
 }
+
 .card:hover ~ .card{
     left:250px;
 }
-.card p{
-    color: transparent;
-    font-size: 20px;
-    font-family: 'Raleway', sans-serif;
-}
-.card p:hover{
-    backdrop-filter: blur(10px); 
-    color: #b3f67c;
-}
+
 @media screen and (max-width:800px){
     .card:not(:first-child){
         margin-left: -250px;
