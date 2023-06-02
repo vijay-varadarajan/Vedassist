@@ -12,7 +12,7 @@ from django.db.models import Q , Sum
 
 
 
-@login_required(login_url="/login/")
+@login_required(login_url='login')
 def shop(request): 
     if request.method == 'POST':
         medicine_image=request.FILES.get('medicine_image')   
@@ -43,9 +43,10 @@ def shop(request):
 
     return render(request ,'shop.html',context)
 
+
 @login_required(login_url='login')
 def medicines(request):
-    if request.method =="POST" :
+    if request.method == "POST":
         data = request.POST   # request for text frontend data to backend 
         
         medicine_image=request.FILES.get('medicine_image')   #for image
