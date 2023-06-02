@@ -1,0 +1,439 @@
+Cold,Eyepain,Fever,Headache,Stomachache,Dizziness,Vomiting,Chestpain,Jointpain,Loosemotion,Throatinfection,Age,Gender,Weight,Ayurvedic Medicine,Ayurvedic Medicine1,Ayurvedic Medicine2
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,no,no,no,no,yes,no,yes,yes,yes,30,Female,150,Chandanasava,Khadirarishta,Mustakarishta
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,yes,yes,yes,no,yes,no,no,yes,no,no,60,Male,136,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,no,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,no,no,yes,no,yes,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
+yes,no,yes,yes,no,yes,yes,no,yes,yes,no,42,Male,77,Dhatryasava,Dasamoolarishtam,Punarnavasavam
+no,no,yes,no,yes,no,yes,no,no,no,no,34,Female,63,Babularishta,Takrarishta,Balamritam
+yes,no,no,yes,no,no,no,no,no,no,yes,37,Male,72,Ashwagandha,Lohasava,Vasarishta & Vasasava
+no,yes,yes,yes,yes,no,no,yes,no,yes,yes,40,Female,69,Neem,Arvindasava,Punarnavarishta
+yes,no,no,yes,no,yes,no,no,no,no,no,48,Male,73,Ayaskriti,Dashamoola Jeerakam,Karpoorasava
+no,no,yes,no,no,no,yes,no,yes,no,no,33,Female,63,Chandanasava,Khadirarishta,Mustakarishta
+yes,yes,yes,no,yes,no,no,yes,no,no,yes,31,Male,68,Raktshodhakarishta,Vidangarishta,Arjunarishta
+no,yes,no,yes,no,yes,no,no,no,no,yes,47,Female,77,Dhatryasava,Pippalyasavam,Jeerakarishtam
+yes,no,yes,no,yes,no,no,no,no,no,no,25,Male,65,Ayaskriti,Palashpushpasava,Pippalyasavam
+no,yes,no,yes,no,no,no,no,yes,no,yes,32,Female,58,Chandanasava,Kutajarishta,Arjunarishta
+no,no,yes,no,no,yes,no,no,no,no,yes,45,Male,72,Kalmeghasava,Angoorasava,Drakshasava
+yes,yes,yes,no,no,no,no,yes,no,no,no,38,Female,61,Saraswatarishta,Mrigamadasava,Raktshodhakarishta
