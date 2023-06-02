@@ -1,0 +1,20 @@
+<html>
+<body>
+  <h4>Welcome {{request.user}} </h4>
+<br>
+  <h1>Result</h1>
+  <hr>
+  <br>
+  <br>
+{% if count >= 10 %}
+<h5> you are healthy </h5>
+{% else %}
+  <p>Medicine 1: {{ context.medicine1 }}</p>
+  <br>
+  <p>Medicine 2: {{  context.medicine2 }}</p>
+  <br>
+  <p>Medicine 3: {{  context.medicine3 }}</p>
+{%endif%}
+</body>
+</html>
+

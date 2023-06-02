@@ -1,0 +1,137 @@
+{% extends "base.html"%}
+
+{% block start %}
+
+<header>
+    <div class="welcome" style="color: green; font-size: 25px; font-family: Georgia, 'Times New Roman', Times, serif; position: fixed; background-color: white; margin: 5px 0px 0px 15px;">
+        Welcome, {{ user.username }}
+    <div>
+</header>
+<img src="../static/pngwing.com1.png" alt="" class="bg11">
+<img src="../static/Organic-Green-Leaves-Transparent-PNG.png" alt="" class="bg12">
+<img src="../static/doc.png" alt="" class="lady">
+<div class="content">
+  <section class="content_data">
+      <form method="post" action="{% url 'predict' %}" class="d">
+          {% csrf_token %}
+          <h2 class="head_c">
+              Take A Test
+          </h2>
+          <br>
+          <div class="opti">
+              <div class="opt">
+                  <label for="cold" class="cold">Cold:</label>
+                  <select name="cold" class="cold_b">
+                      <option value="no">No</option>
+                      <option value="yes">Yes</option>
+                  </select>
+              </div>
+              <div class="opt">
+                  <label for="eyepain" class="cold">Eyepain:</label>
+                  <select class="cold_b" name="eyepain">
+                      <option value="no">No</option>
+                      <option value="yes">Yes</option>
+                  </select>
+              </div>
+          </div>
+          <div class="opti">
+              <div class="opt">
+                  <label for="fever" class="cold">Fever:</label>
+                  <select class="cold_b" name="fever">
+                      <option value="no">No</option>
+                      <option value="yes">Yes</option>
+                  </select>
+              </div>
+              <div class="opt">
+                  <label for="headache" class="cold">Headache:</label>
+                  <select class="cold_b" name="headache">
+                      <option value="no">No</option>
+                      <option value="yes">Yes</option>
+                  </select>
+              </div>
+          </div>
+          <div class="opti">
+              <div class="opt">
+                  <label for="stomachache" class="cold">Stomachache:</label>
+                  <select class="cold_b" name="stomachache">
+                      <option value="no">No</option>
+                      <option value="yes">Yes</option>
+                  </select>
+              </div>
+              <div class="opt">
+                  <label for="dizziness" class="cold">Dizziness:</label>
+                  <select class="cold_b" name="dizziness">
+                      <option value="no">No</option>
+                      <option value="yes">Yes</option>
+                  </select>
+              </div>
+          </div>
+          <div class="opti">
+              <div class="opt">
+                  <label for="vomiting" class="cold">Vomiting:</label>
+                  <select class="cold_b" name="vomiting">
+                      <option value="no">No</option>
+                      <option value="yes">Yes</option>
+                  </select>
+              </div>
+              <div class="opt">
+                  <label for="chestpain" class="cold">Chestpain:</label>
+                  <select class="cold_b" name="chestpain">
+                      <option value="no">No</option>
+                      <option value="yes">Yes</option>
+                  </select>
+              </div>
+          </div>
+          <div class="opti">
+              <div class="opt">
+                  <label for="jointpain" class="cold">Jointpain:</label>
+                  <select class="cold_b" name="jointpain">
+                      <option value="no">No</option>
+                      <option value="yes">Yes</option>
+                  </select>
+              </div>
+              <div class="opt">
+                  <label for="loosemotion" class="cold">Diarrhoea:</label>
+                  <select class="cold_b" name="loosemotion">
+                      <option value="no">No</option>
+                      <option value="yes">Yes</option>
+                  </select>
+              </div>
+          </div>
+          <div class="opti">
+              <div class="opt">
+                  <label for="throatinfection" class="cold">Throatinfection:</label>
+                  <select class="cold_b" name="throatinfection">
+                      <option value="no">No</option>
+                      <option value="yes">Yes</option>
+                  </select>
+              </div>
+              <div class="opt">
+                  <label for="age" class="cold">Age:</label>
+                  <input type="number" class="cold_b" name="age">
+              </div>
+          </div>
+          <div class="opti">
+              <div class="opt">
+                  <label for="gender" class="cold">Gender:</label>
+                  <select class="cold_b" name="gender">
+                      <option value="3">Male</option>
+                      <option value="4">Female</option>
+                  </select>
+              </div>
+              <div class="opt">
+                  <label for="weight" class="cold">Weight:</label>
+                  <input type="number" class="cold_b" name="weight">
+              </div>
+          </div>
+          <a href="#">
+              <center><button class="btn1" type="submit">Predict</button></center>
+          </a>
+          </form>
+  </section>
+  
+</div>
+  
+  
+  
+  {% endblock %}

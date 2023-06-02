@@ -1,0 +1,110 @@
+{% extends "base.html"%}
+
+{% block start %}
+<h4> Welcome
+{{request.user}}
+</h4>
+<div class = "container mt-5"> 
+    <form class= "col-6 mx-auto card p-3 shadow.lg" method="POST" enctype="multipart/form-data">
+      {% csrf_token %}
+      <h2> Add Medicine </h2>
+      <hr>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Medicine Name</label>
+          <input name="medicine_name"  required type="text" class="form-control">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Medicine Price</label>
+          <input name="medicine_price"  required type="number" class="form-control">
+        </div>
+
+        <div class="mb-6">
+          <label for="exampleInputPassword1" class="form-label">Medicine Decription</label>
+          <textarea class="form-control" name="medicine_description" required> </textarea>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Medicine Image</label>
+          <input name ="medicine_image" required type="file" class="form-control">
+        </div>
+
+        <button type="submit" class="btn btn-success">Add Medicine</button>
+    </form>
+    <div class="mt-5">
+      <div class="mx-auto col-6">
+
+        <form> 
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Search Medicine</label>
+            <input name="search" type="text" class="form-control">
+          </div>
+          <br>
+          <button type="submit" class="btn btn-primary">Search</button>
+
+        </form>
+      
+    </div>
+
+<hr>
+<br>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">Medicine Name</th>
+          <th scope="col">Medicine Decription</th>
+          <th scope="col">Medicine Image</th>
+          <th scope="col">Medicine Price (Rs.)</th>
+          <th scope="col">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for medicine in medicines %}
+        <tr>
+          <th scope="row">{{forloop.counter}}</th>
+          <td>{{medicine.medicine_name}}</td>
+          <td>{{medicine.medicine_description}}
+            <p>
+              {{ text|slice:":40" }}
+            </p>
+          </td>
+          <td>
+            <img src ="/media/{{medicine.medicine_image}}" style="height : 100px" >
+           </td>
+          <td>
+            {{ medicine.medicine_price }}
+           </td>
+           <td>
+            <a href ="/delete-medicine/{{medicine.id}}/" class ="btn btn-danger m-2"> Delete </a> 
+           </td>
+          </tr>
+
+
+        {% endfor %}
+
+        <div class="pagination">
+          <span class="step-links">
+            {% if page_obj.has_previous %}
+              <a href="?page=1">&laquo; first</a>
+              <a href="?page={{ page_obj.previous_page_number }}">previous</a>
+            {% endif %}
+        
+            <span class="current">
+              Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+            </span>
+        
+            {% if page_obj.has_next %}
+              <a href="?page={{ page_obj.next_page_number }}">next</a>
+              <a href="?page={{ page_obj.paginator.num_pages }}">last &raquo;</a>
+            {% endif %}
+          </span>
+        </div>
+        
+     
+      </tbody>
+    </table>
+
+</div>
+
+</div>
+    
+{% endblock %}
