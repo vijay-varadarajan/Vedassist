@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: url(../static/cursor.png),auto;
+}
+section{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(126, 249, 126);
+}
+.gg{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(5, 57, 5);
+}
+.containe{
+    display: flex;
+    flex-direction: row;
+    flex-flow:row wrap;
+    justify-content: center;
+    margin: 40px;
+    gap: 20px;
+    background-color: rgb(3, 153, 3);
+    border-radius: 20px;
+    color: #fff;
+}
+.imaa{
+    width: 150px;
+    border-radius: 40px;
+}
+.chi{
+    display: flex;
+    flex-flow: column wrap;
+    border-radius: 20px;
+    width: 100%;
+}
+.chi h2{
+    padding-top: 40px;
+    padding-left: 20px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.chi h4{
+    padding: 20px;
+    padding-top: 50px;
+    font-size: 50px;
+}
+.chi p{
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.render{
+    size: 200px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+.btn6{
+    background: none;
+    border: 2px solid green;
+    font-size: 10px;
+    color: #d7f194;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+    border-radius: 4px;
+    background-color: rgb(37, 138, 37);
+    font-weight: bolder;
+    box-shadow: 1px 1px 6px #013405;
+    width: 100px;
+    height: 40px;
+    margin-top: 0;
+    right: 0;
+}
+.btn6:before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 120%;
+    background-color: #b3f50e;
+    top: 50%;
+    transform: skewX(30deg) translate(-150%,-50%);
+    transition: all 0.5s;
+    overflow: hidden;
+}
+.btn6:hover{
+    background-color: #67f706;
+    color: #3b750c;
+    font-weight: 700;
+    border-color: #67f706;
+    letter-spacing: 0.25em;
+    box-shadow: 5px 5px 10px rgb(41, 249, 9);
+}
+.btn6:hover::before{
+    transform: skewX(30deg) translate(150%,-50%);
+    transition-delay: 0.1s;
+}
+.btn6:active{
+    transform: scale(0.9);
+}
