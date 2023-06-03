@@ -49,7 +49,7 @@
          </td>
          <td>{{medicine.medicine_price}}</td>
          <td>
-          <a href ="/buy-medicine/{{medicine.id}}/" class ="btn btn-success m-2"> Buy</a> 
+          <a href ="{% url 'buy_medicine' id=medicine.id %}" class ="btn btn-success m-2"> Buy</a> 
          </td>
         </tr>
 

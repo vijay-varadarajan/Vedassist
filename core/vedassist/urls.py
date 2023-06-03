@@ -17,5 +17,6 @@ urlpatterns = [
     path('delete-medicine/<id>/' , views.delete_medicine ,name="delete_medicine"),
     path("shop/", views.shop, name="shop"),
     path("buy-medicine/<id>/", views.buy_medicine, name="buy_medicine"),
-
+    path('paypal-return', views.paypal_return, name='paypal-return'),
+    path('paypal-cancel', views.paypal_cancel, name='paypal-cancel'),
 ]

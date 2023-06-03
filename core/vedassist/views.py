@@ -9,6 +9,12 @@ from django.urls import reverse
 from django.core.paginator import Paginator
 from .predictor import model_predict
 from django.db.models import Q , Sum
+import uuid
+from paypal.standard.forms import PayPalPaymentsForm
+from django.conf import settings
+import logging
+
+logger = logging.getLogger(__name__)
 
 
 
@@ -159,15 +165,38 @@ def delete_medicine(request, id):      #also regiser this rout to urls.py
     queryset.delete()
     return redirect('/medicines/')
 
-
-
-
     
 @login_required(login_url='/login/')
 def buy_medicine(request, id):      #also regiser this rout to urls.py
     queryset = Medicine.objects.get(id=id)
-    print(queryset)
-    return redirect('//')
+    try:
+        host = request.get_host()
+        
+        paypal_dict = {
+            'business': settings.PAYPAL_RECEIVER_EMAIL,
+            'amount': queryset.medicine_price,
+            'item_name': queryset.medicine_name,
+            'invoice': str(uuid.uuid4()),
+            'currency_code': 'USD',
+            'notify_url': f'http://{host}{reverse("paypal-ipn")}',
+            'return_url': f'http://{host}{reverse("paypal-return")}',
+            'cancel_return': f'http://{host}{reverse("paypal-cancel")}',
+        }
+        form = PayPalPaymentsForm(initial=paypal_dict)
+        context = {'form': form}
+        
+        return render(request, 'buy.html', {context})
+    except Exception as err:
+        logger.exception("An error occurred during PayPal integration: %s", str(err))
+        
+
+def paypal_return(request):
+    messages.success(request=request, message="Successful payment")
+    return redirect('buy_medicine')
+
+def paypal_cancel(request):
+    messages.success(request=request, message="Payment failed")
+    return redirect('buy_medicine')
 
 
 
