@@ -3,7 +3,7 @@ import pickle
 import joblib
 import os
 
-downloads_dir = os.path.join("", "C:/Users/SHAILESH/Documents/vedassist_project/Vedassist/core/vedassist/ml_model/model.pkl")
+downloads_dir = os.path.join("", "C:/Users/varad/Documents/test_devsoc/core/vedassist/ml_model/model.pkl")
 classifier = joblib.load(downloads_dir)
 
 def model_predict(user_input):

@@ -169,6 +169,7 @@ def delete_medicine(request, id):      #also regiser this rout to urls.py
 @login_required(login_url='/login/')
 def buy_medicine(request, id):      #also regiser this rout to urls.py
     queryset = Medicine.objects.get(id=id)
+    print(queryset)
     try:
         host = request.get_host()
         
@@ -183,11 +184,13 @@ def buy_medicine(request, id):      #also regiser this rout to urls.py
             'cancel_return': f'http://{host}{reverse("paypal-cancel")}',
         }
         form = PayPalPaymentsForm(initial=paypal_dict)
-        context = {'form': form}
+        context = {'form': form, 'queryset': queryset, }
         
-        return render(request, 'buy.html', {context})
+        return render(request, 'buy.html', context)
     except Exception as err:
         logger.exception("An error occurred during PayPal integration: %s", str(err))
+        
+    return render(request, 'buy.html')
         
 
 def paypal_return(request):
