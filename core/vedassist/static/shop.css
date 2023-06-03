@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: url(../static/cursor.png),auto;
+}
 .inputbox {
     margin-top: 5px;
     width: 70%;
@@ -40,7 +45,7 @@
     color: green;
     font-family: cursive;
     z-index: 999;
-    margin-top: 300px;
+    margin-top: 30px;
 }
 .btn3{
     padding: 1.1rem 2rem;
@@ -306,5 +311,47 @@ box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 -ms-transition: all 250ms ease-in-out 0s;
 -o-transition: all 250ms ease-in-out 0s;
 transition: all 250ms ease-in-out 0s;
+}
+.btn{
+    padding: 1.1rem 2rem;
+    background: none;
+    border: 2px solid green;
+    font-size: 15px;
+    color: #d7f194;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+    border-radius: 4px;
+    background-color: rgb(37, 138, 37);
+    font-weight: bolder;
+    box-shadow: 1px 1px 6px #013405;
+
+    margin-top: 0;
+    margin-bottom: 90px;
+}
+.btn:before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 120%;
+    background-color: #b3f50e;
+    top: 50%;
+    transform: skewX(30deg) translate(-150%,-50%);
+    transition: all 0.5s;
+}
+.btn:hover{
+    background-color: #67f706;
+    color: #3b750c;
+    box-shadow: 0 2px 0 2px rgb(125, 247, 125);
+    border-color: #67f706;
+    letter-spacing: 0.25em;
+    box-shadow: 10px 10px 60px rgb(41, 249, 9);
+}
+.btn:hover::before{
+    transform: skewX(30deg) translate(150%,-50%);
+    transition-delay: 0.1s;
+}
+.btn:active{
+    transform: scale(0.9);
 }
 

@@ -1,10 +1,8 @@
 {% extends "base.html"%}
-
+{% block title %} Home {% endblock %}
 {% block start %}
 <link rel="stylesheet" type="text/css" href="../static/home2.css">
-
-    <div>
-        <img src="../static/Backdrop1.jpg" alt="" class="bgg">
+    <section>
         <div class="home_content">
             <div class="home_data">
                 <br>
@@ -17,15 +15,15 @@
                     </p>
                 </h1>
                 <a href="{% url 'test' %}">
-                    <button class="btn">Test 1 →</button>
+                    <button class="btn3">Predictor →</button>
                 </a>
                 <a href="{% url 'test2' %}">
-                    <button class="btn" style="margin-left: 50px;">Test 2 →</button>
+                    <button class="btn3" style="margin-left: 50px;">Analyser →</button>
                 </a>
                 <br>
                 <hr style="color: transparent;"><hr style="color: transparent;">
             </div>
         </div>
-    </div>
+    </section>
 
 {% endblock %}

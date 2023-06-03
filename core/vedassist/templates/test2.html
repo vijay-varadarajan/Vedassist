@@ -1,6 +1,7 @@
 {% extends "base.html"%}
-
+{% block title %} Analyser {% endblock %}
 {% block start %}
+<link rel="stylesheet" href="../static/test.css">
 
 <img src="../static/Ayurvedic & Medicinal plants_2.jpg" alt="" class="bg121">
 <img src="../static/doc.png" alt="" class="lady">
@@ -12,7 +13,7 @@
       <form method="POST" action="{% url 'predict2' %}" class="d">
           {% csrf_token %}
           <h2 class="head_c">
-              Analyse drug effects
+              Analyse Drug Effect
           </h2>
           <br>
           <div class="opti">
