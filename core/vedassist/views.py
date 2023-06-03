@@ -221,11 +221,11 @@ def buy_medicine(request, id):      #also regiser this rout to urls.py
 
 def paypal_return(request):
     messages.success(request=request, message="Successful payment")
-    return redirect('buy_medicine')
+    return redirect('shop')
 
 def paypal_cancel(request):
     messages.success(request=request, message="Payment failed")
-    return redirect('buy_medicine')
+    return redirect('shop')
 
 
 

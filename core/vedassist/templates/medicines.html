@@ -1,6 +1,7 @@
 {% extends "base.html"%}
-
+{% block title %} Medicine {% endblock %}
 {% block start %}
+<link rel="stylesheet" href="../static/shop.css">
 <h4 class="wel"> Welcome
 {{request.user}}
 </h4>
@@ -27,18 +28,18 @@
           <input name ="medicine_image" required type="file" class="form-control">
         </div>
 
-        <button type="submit" class="btn btn-success">Add Medicine</button>
+        <button type="submit" class="btn3" style="font-size: 11px;">Add Medicine</button>
     </form>
     <div class="mt-5">
       <div class="mx-auto col-6">
 
         <form> 
-          <div class="mb-3">
+          <div class="mb-3"
             <label for="exampleInputEmail1" class="form-label">Search Medicine</label>
             <input name="search" type="text" class="form-control">
           </div>
           <br>
-          <button type="submit" class="btn3">Search</button>
+          <button type="submit" class="btn4">Search</button>
 
         </form>
       

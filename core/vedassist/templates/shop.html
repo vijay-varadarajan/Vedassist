@@ -1,7 +1,8 @@
 {% extends "base.html" %}
-
+{% block title %} Shop {% endblock %}
 {% block start %}
 {% if user%}
+<link rel="stylesheet" href="../static/shop.css">
 <div class="mt-5" style="background-color: rgb(174, 255, 163)">
     <div class="mx-auto col-6">
 
@@ -11,7 +12,7 @@
           <input name="search" type="text" class="inputbox">
         </div>
         <br>
-        <button type="submit" class="btn3">Search</button>
+        <button type="submit" class="btn4">Search</button>
       </form>
   </div>
   <hr>
@@ -42,7 +43,7 @@
           <p class="text" id="text{{medicine.id}}">{{medicine.medicine_description | slice:"0:100"}}<span class="moretext">{{medicine.medicine_description | slice:"100:"}}</span></p>
           <p class="readmore" id="readmore{{medicine.id}}" onclick="expand({{medicine.id}})">Read More</p>
             
-          <p>₹{{medicine.medicine_price}}</p>
+          <p>$ {{medicine.medicine_price}}</p>
           <p>
             <a href ="/buy-medicine/{{medicine.id}}/"><button class ="btn4">Buy</button></a> 
           </p>
