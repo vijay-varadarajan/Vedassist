@@ -2,14 +2,14 @@
 
 {% block start %}
 
-<img src="../static/Ayurvedic & Medicinal plants_2.jpg" alt="" class="bg12">
+<img src="../static/Ayurvedic & Medicinal plants_2.jpg" alt="" class="bg121">
 <img src="../static/doc.png" alt="" class="lady">
 <div class="welcome" style="color: green; font-size: 20px; font-family: Georgia, 'Times New Roman', Times, serif; position: fixed;z-index: 999; background: transparent; margin-top: 75px; left: 10px;">
     Welcome, {{ user.username }}
 </div>
 <div class="content">
   <section class="content_data">
-      <form method="post" action="{% url 'predict' %}" class="d">
+      <form method="POST" action="{% url 'predict2' %}" class="d">
           {% csrf_token %}
           <h2 class="head_c">
               Analyse drug effects
@@ -19,8 +19,7 @@
               <div class="opt">
                   <label for="herbs" class="cold">Herbs:</label>
                   <select name="herbs" class="cold_b">
-                      <option value=""></option>
-                      <option value="Arjunarishta">Arjunarishta</option>
+                      <option value="Arjunarishta" selected>Arjunarishta</option>
                       <option value="Lemon Balm">Lemon Balm</option>
                       <option value="Devadarvarishta">Devadarvarishta</option>
                       <option value="Neem">Neem</option>
@@ -52,8 +51,7 @@
               <div class="opt">
                 <label for="allopathic-drug" class="cold">Allopathic Drugs:</label>
                 <select name="allopathic_drug" class="cold_b">
-                    <option value=""></option>
-                    <option value="Prednisone">Prednisone</option>
+                    <option value="Prednisone" selected>Prednisone</option>
                     <option value="Esomeprazole">Esomeprazole</option>
                     <option value="Naproxen">Naproxen</option>
                     <option value="Amlodipine">Amlodipine</option>
@@ -103,12 +101,12 @@
             <div class="opti">
                 <div class="opt">
                     <label for="duration" class="cold">Duration :</label>
-                    <input type="number" class="cold_b" name="weight">
+                    <input type="number" class="cold_b" name="duration">
                 </div>
             </div>
-            <a href="#">
+          
                 <center><button class="btn1" type="submit">Predict</button></center>
-            </a>
+            
         </form>
   </section>
   

@@ -1,14 +1,14 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, r2_score
 from sklearn.preprocessing import LabelEncoder
+import matplotlib.pyplot as plt
 import joblib
 import pickle
-import os
 
 # Load the dataset
-data = pd.read_csv('vedassist_2.csv')
+data = pd.read_csv('C:/Users/varad/Documents/Vedassist/vedassist_2.csv')
 
 # Replace missing values with the most frequent value in each column
 data = data.fillna(data.mode().iloc[0])
@@ -17,11 +17,20 @@ data = data.fillna(data.mode().iloc[0])
 X = data.iloc[:, :-1]
 y = data.iloc[:, -1]
 
+label_codes = {}
+
 # Encode the first two columns and gender column
 label_encoder = LabelEncoder()
 X['Herb'] = label_encoder.fit_transform(X['Herb'])
+label_codes['Herb'] = label_encoder
 X['Allopathic Medicine'] = label_encoder.fit_transform(X['Allopathic Medicine'])
+label_codes['Allopathic Medicine'] = label_encoder
 X['Gender'] = label_encoder.fit_transform(X['Gender'])
+label_codes['Gender'] = label_encoder
+
+print(label_codes)
+with open("C:/Users/varad/Documents/Vedassist/core/vedassist/ml_model/codes.pkl", 'wb') as f:
+    pickle.dump(label_codes, f)
 
 # Encode the Adverse Effect column
 y_encoded = label_encoder.fit_transform(y)
@@ -32,8 +41,8 @@ X = pd.get_dummies(X)
 # Split the dataset into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y_encoded, test_size=0.2, random_state=42)
 
-# Create and train the logistic regression model
-model = LogisticRegression(max_iter=1000)
+# Create and train the Random Forest classifier
+model = RandomForestClassifier(n_estimators=100, random_state=42)
 model.fit(X_train, y_train)
 
 # Make predictions on the test set
@@ -47,7 +56,6 @@ print("Accuracy:", accuracy*100,"%")
 print("R-squared Score:", r2)
 
 joblib.dump(model, 'model2.pkl')
-print("dumped")
 
 # Get user input as a comma-separated string
 user_input = input("Enter comma-separated values for Herb, Allopathic Medicine, Age, Gender, Weight, Dosage, Duration: ")
@@ -69,5 +77,6 @@ user_df['Gender'] = user_df['Gender'].apply(lambda x: label_encoder.transform([x
 # Make prediction based on user input
 prediction_encoded = model.predict(user_df)
 prediction = label_encoder.inverse_transform(prediction_encoded)
+
 
 print("Predicted Adverse Effect:", prediction[0])

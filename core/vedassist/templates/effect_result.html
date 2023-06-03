@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block start %}
+<div class="heading">
+<h2>Results of analysis</h2>
+</div>
+
+<div class="analysis" style="display: flex; justify-content: center">
+    <p>
+    {% if effect == 'None' %}
+        The consumption of <b>{{allopathic_drug}}<b><i>(an allopathic drug)</i> with <b>{{herb}}</b><i>(an ayurvedic drug)</i> is predicted to not have adverse effects on your health.
+    {% else %}
+        Consumption of allopathic drug '{{allopathic_drug}}' along with the ayurvedic medicine '{{herb}}'. Consumption of allopathic drug along with an ayurvedic medicine is generally harmful for the body and must be avoided as much as possible.
+    {% endif %}
+    </p>
+</div>
+
+<div class="ps">
+    <h6>The AI/ML model trained for this prediction is 98.5% accurate</h6>
+</div>
+
+{% endblock %}

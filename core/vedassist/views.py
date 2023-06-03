@@ -115,12 +115,37 @@ def test2(request):
 
 
 @login_required(login_url="/login/")
-def effect_result(request):
+def predict2(request):
     if request.method != 'POST':
+        return HttpResponseRedirect(reverse("test2"))
+    
+    age = request.POST.get('age')
+    weight = request.POST.get('weight')
+    if not age or not weight:
+        messages.info(request, "Fill all the fields")
         return HttpResponseRedirect(reverse("test"))
     
+    user_input = [    
+        5,
+        2,
+        int(request.POST.get('age')),
+        int(request.POST.get('gender')),
+        int(request.POST.get('weight')),
+        int(request.POST.get('doses')),
+        int(request.POST.get('duration'))
+    ]
     
-    return render(request, 'effect_result.html')
+    print("User input: ", user_input)
+    
+    effect = model_predict2(str(user_input).lstrip('[').rstrip(']'))
+    context = {'effect': effect, 'herb': user_input[0], 'allopathic_drug': user_input[1]}
+    
+    return render(request, 'effect_result.html', context)
+    
+    
+@login_required(login_url='/login/')
+def effect_result(request):
+    return render('effect_result.html')
 
 
 @login_required(login_url="/login/")
