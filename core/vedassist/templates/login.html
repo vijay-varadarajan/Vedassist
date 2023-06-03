@@ -11,10 +11,8 @@
 </head>
 <body>
   <section>
-    <img src="../static/bg.jpg" class="bg">
-    <img src="../static/doctor.png" class="doctor">
-    <img src="../static/tree-removebg-preview.png" alt="tree" class="tree">
-    <form class= "login" method="POST" enctype="multipart/form-data">
+    <img src="../static/Backdrop.jpg" class="bg">
+    <form class="login" method="POST" enctype="multipart/form-data">
       {% csrf_token %}
       {% if messages %}
         {{ message.tags }}
@@ -42,7 +40,7 @@
                   <input type="submit" value="login" id="btn">
               </div>
               <div class="group">
-                  <a href="/register"><u>Register</u></a>
+                  <h6>New here?<a href="/register">  <u>Register</u></a></h6>
               </div>
       
     </form>

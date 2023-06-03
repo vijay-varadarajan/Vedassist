@@ -1,0 +1,963 @@
+Herb,Allopathic Medicine,Age,Gender,Weight,Dosage,Duration,Adverse Effect
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,None
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,None
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,None
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,None
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Hyperthyroidism
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,None
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,None
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,None
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,70,500,8,Hypoglycemia
+Licorice,Warfarin,70,Male,75,250,4,Bleeding
+Ginger,Amoxicillin,28,Male,80,500,10,Nausea
+Moringa,Fluoxetine,42,Female,55,500,6,Serotonin Syndrome
+Gokshura,Loratadine,50,Male,85,750,12,Drowsiness
+Ashwagandha,Lisinopril,45,Male,70,500,4,Hypotension
+Triphala,Atorvastatin,55,Female,65,1000,8,Headache
+Guduchi,Metformin,60,Male,80,750,12,Hypoglycemia
+Shatavari,Omeprazole,35,Female,60,250,6,Abdominal Pain
+Brahmi,Warfarin,70,Male,75,500,10,Bleeding
+Neem,Amoxicillin,28,Female,55,1000,2,Nausea
+Turmeric,Fluoxetine,42,Male,85,500,6,Serotonin Syndrome
+Amla,Loratadine,50,Female,70,1000,4,Dizziness
+Guggul,Lisinopril,65,Male,80,500,8,Hypotension
+Tulsi,Paracetamol,30,Female,60,500,6,None
+Bhringraj,Prednisone,57,Male,72,300,6,Immunosuppression
+Arjuna,Atenolol,48,Female,68,500,4,Bradycardia
+Mucuna Pruriens,Levothyroxine,39,Male,75,100,8,Tremors
+Bilberry,Lisinopril,65,Female,60,500,6,Hypotension
+Gotu Kola,Simvastatin,42,Male,85,1000,12,Muscle Pain
+Karela,Metformin,60,Female,120,2000,50,Serotonin Syndrome
+

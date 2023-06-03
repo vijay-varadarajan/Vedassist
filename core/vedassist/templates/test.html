@@ -2,22 +2,29 @@
 
 {% block start %}
 
-<header>
-    <div class="welcome" style="color: green; font-size: 25px; font-family: Georgia, 'Times New Roman', Times, serif; position: fixed; background-color: white; margin: 5px 0px 0px 15px;">
-        Welcome, {{ user.username }}
-    <div>
-</header>
-<img src="../static/pngwing.com1.png" alt="" class="bg11">
-<img src="../static/Organic-Green-Leaves-Transparent-PNG.png" alt="" class="bg12">
+<img src="../static/Ayurvedic & Medicinal plants_2.jpg" alt="" class="bg121">
 <img src="../static/doc.png" alt="" class="lady">
+<div class="welcome" style="color: green; font-size: 20px; font-family: Georgia, 'Times New Roman', Times, serif; position: fixed;z-index: 999; background: transparent; margin-top: 75px; left: 10px;">
+    Welcome, {{ user.username }}
+</div>
+
 <div class="content">
   <section class="content_data">
       <form method="post" action="{% url 'predict' %}" class="d">
           {% csrf_token %}
           <h2 class="head_c">
-              Take A Test
+              Enter your symptoms
           </h2>
           <br>
+          
+          {% if messages %}
+          {{ message.tags }}
+          <div class="alert alert-danger" role="alert">
+              {% for message in messages %}
+              {{message}}
+              {% endfor %}
+            </div>
+        {% endif %}
           <div class="opti">
               <div class="opt">
                   <label for="cold" class="cold">Cold:</label>
@@ -100,7 +107,7 @@
           </div>
           <div class="opti">
               <div class="opt">
-                  <label for="throatinfection" class="cold">Throatinfection:</label>
+                  <label for="throatinfection" class="cold">Throat infection:</label>
                   <select class="cold_b" name="throatinfection">
                       <option value="no">No</option>
                       <option value="yes">Yes</option>
@@ -124,9 +131,9 @@
                   <input type="number" class="cold_b" name="weight">
               </div>
           </div>
-          <a href="#">
+          
               <center><button class="btn1" type="submit">Predict</button></center>
-          </a>
+          
           </form>
   </section>
   

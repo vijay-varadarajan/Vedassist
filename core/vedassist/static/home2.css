@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@500&family=Foldit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    margin: 0;
+    padding: 0;
+}
+.bgg{
+    position: fixed;
+    width: 100%;
+    
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.home_content{
+    position: relative;
+    display: flex;
+    justify-content: initial;
+    flex-flow: row wrap;
+    gap: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.home_content{
+    position: relative;
+    row-gap: 2rem;
+    margin-left: 100px;
+}
+
+.head_cont{
+    font-size: 100px;
+    border-radius: 10px;
+    font-family: 'Dancing script' , cursive;
+    background: -webkit-linear-gradient(rgb(55, 200, 18), rgb(6, 135, 6), rgb(2, 72, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+.home_description{
+    margin-block: 1rem 0rem;
+    font-size: 25px;
+    color: rgb(4, 83, 4);
+    font-family: 'Comic Neue', cursive;
+    font-weight: 600;
+    top: 0;
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+.btn{
+    padding: 1.1rem 2rem;
+    background: none;
+    border: 2px solid green;
+    font-size: 15px;
+    color: #d7f194;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+    border-radius: 4px;
+    background-color: rgb(37, 138, 37);
+    font-weight: bolder;
+    box-shadow: 1px 1px 6px #013405;
+    margin-top: 0;
+    margin-bottom: 90px;
+}
+.btn:before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 120%;
+    background-color: #b3f50e;
+    top: 50%;
+    transform: skewX(30deg) translate(-150%,-50%);
+    transition: all 0.5s;
+}
+.btn:hover{
+    background-color: #67f706;
+    color: #3b750c;
+    box-shadow: 0 2px 0 2px rgb(125, 247, 125);
+    border-color: #67f706;
+    letter-spacing: 0.25em;
+    box-shadow: 10px 10px 60px rgb(41, 249, 9);
+}
+.btn:hover::before{
+    transform: skewX(30deg) translate(150%,-50%);
+    transition-delay: 0.1s;
+}
+.btn:active{
+    transform: scale(0.9);
+}
+
+@media (max-width: 1200px){
+    .bgg{
+        position: relative;
+    }
+}

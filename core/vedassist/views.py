@@ -8,6 +8,7 @@ from django.contrib.auth.decorators import login_required
 from django.urls import reverse
 from django.core.paginator import Paginator
 from .predictor import model_predict
+from .predictor2 import model_predict2
 from django.db.models import Q , Sum
 import uuid
 from paypal.standard.forms import PayPalPaymentsForm
@@ -18,7 +19,7 @@ logger = logging.getLogger(__name__)
 
 
 
-@login_required(login_url='login')
+@login_required(login_url="/login/")
 def shop(request): 
     if request.method == 'POST':
         medicine_image=request.FILES.get('medicine_image')   
@@ -42,7 +43,7 @@ def shop(request):
             Q(medicine_price__icontains = search) 
             ).order_by('medicine_name').order_by('medicine_price')
 
-    paginator = Paginator(queryset,10)
+    paginator = Paginator(queryset,12)
     page_number = request.GET.get("page", 1)
     page_obj = paginator.get_page(page_number)
     context = {'page_obj': page_obj, 'medicines': page_obj}
@@ -79,7 +80,7 @@ def medicines(request):
             Q(medicine_price__icontains = search) 
             ).order_by('medicine_name').order_by('medicine_price')
 
-    paginator = Paginator(queryset,10)
+    paginator = Paginator(queryset, 12)
     page_number = request.GET.get("page", 1)
     page_obj = paginator.get_page(page_number)
     context = {'page_obj': page_obj, 'medicines': page_obj}
@@ -87,9 +88,9 @@ def medicines(request):
     return render(request, 'medicines.html', context)
 
 
-
-
-
+@login_required(login_url="/login/")
+def home2(request):
+    return render(request, 'home2.html')
 
 
 def home(request):
@@ -108,17 +109,30 @@ def result(request):
 
 
 @login_required(login_url="/login/")
+def test2(request):
+    user = request.user
+    return render(request, 'test2.html', {'user': user})
+
+
+@login_required(login_url="/login/")
+def effect_result(request):
+    if request.method != 'POST':
+        return HttpResponseRedirect(reverse("test"))
+    
+    
+    return render(request, 'effect_result.html')
+
+
+@login_required(login_url="/login/")
 def predict(request):
     if request.method != 'POST':
         return HttpResponseRedirect(reverse("test"))
     # Retrieve user input from the form
     count=0
     age = request.POST.get('age')
-    if not age:
-        return HttpResponseRedirect(reverse("test"))
-
     weight = request.POST.get('weight')
-    if not weight:
+    if not age or not weight:
+        messages.info(request, "Fill all the fields")
         return HttpResponseRedirect(reverse("test"))
 
     user_input = [
@@ -140,22 +154,34 @@ def predict(request):
 
     count = user_input.count(0) 
 
-    if count >= 10:
+    if count >= 11:
         context = {}
+        
+        queryset1 = ''
+        queryset2 = ''
+        queryset3 = ''
 
     else:
         medicines = model_predict(str(user_input).lstrip('[').rstrip(']'))
         print(medicines)
 
+        med1 = medicines[0][0]
+        med2 = medicines[0][1]
+        med3 = medicines[0][2]
+        
     # predictor here
         context = {
-            'medicine1': medicines[0][0],
-            'medicine2': medicines[0][1],
-            'medicine3': medicines[0][2],
+            'medicine1': med1,
+            'medicine2': med2,
+            'medicine3': med3,
         }
+        
+        queryset1 = Medicine.objects.filter(medicine_name = med1)
+        queryset2 = Medicine.objects.filter(medicine_name = med2)
+        queryset3 = Medicine.objects.filter(medicine_name = med3)
 
     return render(request, 'result.html', {
-        'context': context, 'count': count,
+        'context': context, 'count': count, 'queryset1': queryset1, 'queryset2': queryset2, 'queryset3': queryset3,
     })
 
 
@@ -219,9 +245,8 @@ def login_page(request):
             return redirect('/login/')
         
         else:
-            login(request,user)       # iska name(lgoin()) aur function ka name (login_page) diffrent hona chaiye 
-                        # varna infiniite loop chlenga 
-            return redirect('/test/')
+            login(request,user)        
+            return redirect('/userhome/')
 
 
     return render(request, 'login.html')
@@ -269,33 +294,6 @@ def register(request):
     messages.info(request, "Account created successfully")
 
     return redirect('/login/')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

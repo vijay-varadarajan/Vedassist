@@ -7,25 +7,17 @@
     font-size: 50px;
     color: #243f0e;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 100px;
 }
 .content{
     align-items: center;
     display: flex;
     justify-content: initial;
 }
-.bg11{
+
+.bg121{
     position: fixed;
-    top: 30px;
-    left: 0;
-    rotate: 180deg;
-    width: 400px;
-}
-.bg12{
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    transform: scaleX(-1);
-    width: 400px;
+    height: 100%;
 }
 .lady{
     position: fixed;
@@ -46,16 +38,14 @@
 .content_data .d h2{
     position: relative;
     width: 100%;
-    text-align: center;
+    text-align: left;
     font-size: 60px;
     font-weight: 600;
-    margin-bottom: 10px;
-    margin-bottom: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: -webkit-linear-gradient(rgb(90, 249, 50), rgb(9, 206, 9), rgb(2, 72, 2));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-top: 100px;
+    margin-top: 90px;
 
 }
 .cold{
@@ -63,7 +53,7 @@
     font-size: 25px;
     margin-bottom: 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(39, 107, 39);
+    color: rgb(3, 104, 32);
 }
 .cold_b{
     position: relative;
@@ -193,7 +183,10 @@
         width: 300px;
     }
     .lady{
-        left: 100px;
+        right: 100px;
+    }
+    .welcome{
+        font-size: 15px;
     }
 }
 @media screen and (max-width:760px){
@@ -215,12 +208,6 @@
     .lady{
         display: none;
     }
-    .bg11{
-        width: 200px;
-    }
-    .bg12{
-        width: 200px;
-    }
 }
 @media screen and (max-width:660px){
     .content_data{
@@ -228,12 +215,6 @@
     }
     .lady{
         display: none;
-    }
-    .bg11{
-        width: 200px;
-    }
-    .bg12{
-        width: 200px;
     }
 }
 @media screen and (max-width:560px){
@@ -243,11 +224,8 @@
     .lady{
         display: none;
     }
-    .bg11{
-        width: 200px;
-    }
-    .bg12{
-        width: 200px;
+    .welcome{
+        font-size: 15px;
     }
 }
 @media screen and (max-width:460px){
@@ -257,12 +235,6 @@
     .lady{
         display: none;
     }
-    .bg11{
-        width: 100px;
-    }
-    .bg12{
-        width: 200px;
-    }
 }
 @media screen and (max-width:360px){
     .content_data{
@@ -271,12 +243,6 @@
     .lady{
         display: none;
     }
-    .bg11{
-        width: 100px;
-    }
-    .bg12{
-        width: 200px;
-    }
 }
 @media screen and (max-width:260px){
     .content_data{
@@ -284,12 +250,6 @@
     }
     .lady{
         display: none;
-    }
-    .bg11{
-        width: 100px;
-    }
-    .bg12{
-        width: 100px;
     }
 }
 

@@ -1,23 +1,240 @@
-<html>
-<body>
-  <h4>Welcome {{request.user}} </h4>
-<br>
-  <h1>Result</h1>
-  <hr>
-  <br>
-  <br>
-{% if count >= 10 %}
-<h5> you are healthy </h5>
-{% else %}
-  <p>Medicine 1: {{ context.medicine1 }}</p>
-  <br>
-  <p>Medicine 2: {{  context.medicine2 }}</p>
-  <br>
-  <p>Medicine 3: {{  context.medicine3 }}</p>
-  <br>
-  <hr>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Result</title>
+  <link rel="Website Icon" href="../static/icons8-medical-50.png" type="image/png">
+  <style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .welcome{
+        position: relative;
+        font-size: 30px;
+        color: #2d6002;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: white;
+        margin: 0;
+        left: 0;
+        background: transparent;
+    }
+    .bg12{
+      position: absolute;
+      width: 100%;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+    .con_data{
+        position: relative;
+        font-size: 30px;
+        color: #283b17;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+    }
+    .graph{
+        position: relative;
+        margin: 20px;
+        width: fit-content;
+        height: fit-content;
+        box-shadow: 2px 2px 2px #2d6002;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .card3{
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+        gap: 20px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+    .ch2{
+      width: 300px;
+      height: auto;
+      padding: 10px;
+      border: 2px solid rgb(63, 196, 23);
+      border-radius: 20px;
+      box-shadow:2px 2px 2px #079b13;
+      background-color: #fff;
+    }
+    .re{
+        width: 80vw;
+        height: auto;
+        padding: 10px;
+        border: 2px solid rgb(63, 196, 23);
+        border-radius: 20px;
+        box-shadow:2px 2px 2px #079b13;
+        background-color: #fff;
+        font-size: 50px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .btn4{
+      padding: 0.65rem 1rem;
+      background: none;
+      border: 2px solid green;
+      font-size: 10px;
+      color: #d7f194;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.3s;
+      border-radius: 4px;
+      background-color: rgb(37, 138, 37);
+      font-weight: bolder;
+      box-shadow: 1px 1px 6px #013405;
+      width: 100px;
+      height: 40px;
+      margin-top: 0;
+  }
+  .btn4:before{
+      content: "";
+      position: absolute;
+      width: 100px;
+      height: 120%;
+      background-color: #b3f50e;
+      top: 50%;
+      transform: skewX(30deg) translate(-150%,-50%);
+      transition: all 0.5s;
+      overflow: hidden;
+  }
+  .btn4:hover{
+      background-color: #67f706;
+      color: #3b750c;
+      font-weight: 700;
+      border-color: #67f706;
+      letter-spacing: 0.25em;
+      box-shadow: 5px 5px 10px rgb(41, 249, 9);
+  }
+  .btn4:hover::before{
+      transform: skewX(30deg) translate(150%,-50%);
+      transition-delay: 0.1s;
+  }
+  .btn4:active{
+      transform: scale(0.9);
+  }
+  .btn5{
+    padding: 0.65rem 1rem;
+    background: none;
+    border: 2px solid rgb(243, 49, 5);
+    font-size: 10px;
+    color: #d7f194;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+    border-radius: 4px;
+    background-color: rgb(244, 10, 10);
+    font-weight: bolder;
+    box-shadow: 1px 1px 6px #020f03;
+    width: 100px;
+    height: 40px;
+    margin-top: 0;
+}
+.btn5:before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 120%;
+    background-color: #f52d0e;
+    top: 50%;
+    transform: skewX(30deg) translate(-150%,-50%);
+    transition: all 0.5s;
+    overflow: hidden;
+}
+.btn5:hover{
+    background-color: #f78706;
+    color: #dceb03;
+    font-weight: 700;
+    border-color: #de2c3b;
+    letter-spacing: 0.25em;
+    box-shadow: 5px 5px 10px rgb(234, 57, 98);
+}
+.btn5:hover::before{
+    transform: skewX(30deg) translate(150%,-50%);
+    transition-delay: 0.1s;
+}
+.btn5:active{
+    transform: scale(0.9);
+}
+.re{
+    width: 80vw;
+    height: auto;
+    padding: 10px;
+    border: 2px solid rgb(63, 196, 23);
+    border-radius: 20px;
+    box-shadow:2px 2px 2px #079b13;
+    background-color: #fff;
+    font-size: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
   
-{%endif%}
+  </style>
+</head>
+<body>
+  <img src="../static/Backdrop 4.jpg" alt="" class="bg12">
+  {% if count >= 11 %}
+  <center><h5 class="re"> Congratulation! You are Healty </h5></center><br>
+  {% else %}
+  <div class="content">
+    <div class="con_data">
+      <center><h4 class="welcome">Welcome, {{request.user}} </h4>
+      <h1 class="res_head">Result</h1><br></center>
+    <div class="card3">
+      {% for queryset in queryset1 %}
+      <div class="ch2">
+        
+        <p>{{ context.medicine1 }}</p>
+        <center><img src ="/media/{{queryset.medicine_image}}" style="height : 100px; margin-bottom: 5px;" ></center>
+        <p>
+          <a href ="/buy-medicine/{{queryset.id}}/"><button class ="btn4">Buy</button></a> 
+        </p>
+      </div>
+      {% endfor %}
+      {% for queryset in queryset2 %}
+      <div class="ch2">
+        
+        <p>{{  context.medicine2 }}</p>
+        <center><img src ="/media/{{queryset.medicine_image}}" style="height : 100px; margin-bottom: 5px;" ></center>
+        <p>
+          <a href ="/buy-medicine/{{queryset.id}}/"><button class ="btn4">Buy</button></a> 
+        </p>
+      </div>
+      {% endfor %}
+      {% for queryset in queryset3 %}
+      <div class="ch2">
+        
+        <p>{{ context.medicine3 }}</p>
+        <center><img src ="/media/{{queryset.medicine_image}}" style="height : 100px; margin-bottom: 5px;" ></center>
+        <p>
+          <a href ="/buy-medicine/{{queryset.id}}/"><button class ="btn4">Buy</button></a> 
+        </p>
+      </div>
+      {% endfor %}
+    </div>
+    <p>
+      <a href ="{% url 'test' %}"><button class ="btn5">Return</button></a> 
+    </p>
+    <div class="graph">
+    <div>
+    <iframe title="Vedassist Statistics 2 - Page 1" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=68f3d1a9-d05e-4dda-aa81-2c05b13278ee&autoAuth=true&ctid=d4963ce2-af94-4122-95a9-644e8b01624d" frameborder="0" allowFullScreen="true"></iframe>
+    </div>
+    </div>
+  </div>
+  {% endif %}
 </body>
 </html>
+
+
 

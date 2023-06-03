@@ -9,11 +9,9 @@
     <link rel="Website Icon" type="png" href="../static/icons8-medical-50.png">
     <title>REGISTER | Vedassist</title>
 </head>
-<body>
+<body style="background-color: rgba(126, 126, 126, 0.78)">
     <section>
-        <img src="../static/bg.jpg" class="bg">
-        <img src="../static/doctor.png" class="doctor">
-        <img src="../static/tree-removebg-preview.png" alt="tree" class="tree">
+        <img src="../static/Backdrop 3.jpg" class="bg">
         <form class= "login" method="POST" enctype="multipart/form-data">
           {% csrf_token %}
           {% if messages %}
@@ -49,7 +47,7 @@
                 <input type="submit" value="Register" id="btn">
             </div>
             <div class="group">
-                <a href="/login"><u>Login</u></a>
+                <h6>Already registed?<a href="/login">  <u>Login</u></a></h6>
             </div>
           
         </form>

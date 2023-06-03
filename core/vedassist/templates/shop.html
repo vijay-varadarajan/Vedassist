@@ -1,86 +1,72 @@
-{% extends "base.html"%}
+{% extends "base.html" %}
 
 {% block start %}
-
-<h4> Welcome
-    {{request.user}}
-</h4>
-
-<div class="mt-5">
+{% if user%}
+<div class="mt-5" style="background-color: rgb(174, 255, 163)">
     <div class="mx-auto col-6">
 
       <form> 
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Search Medicine</label>
-          <input name="search" type="text" class="form-control">
+        <div class="mb-3" style="display: flex; flex-direction: column">
+          <label for="exampleInputEmail1" class="form-label" style="position: relative; margin-top: 30px; font-weight: 700; font-size: 26px">Search Medicine</label>
+          <input name="search" type="text" class="inputbox">
         </div>
         <br>
-        <button type="submit" class="btn btn-primary">Search</button>
-
+        <button type="submit" class="btn3">Search</button>
       </form>
-    
   </div>
-
-<hr>
+  <hr>
+</div>
 <br>
-  <table class="table">
-    <thead>
-      <tr>
-        <th scope="col">#</th>
-        <th scope="col">Medicine Name</th>
-        <th scope="col">Medicine Decription</th>
-        <th scope="col">Medicine Image</th>
-        <th scope="col">Medicine Price (Rs.)</th>
-        <th scope="col">Actions</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for medicine in medicines %}
-      <tr>
-        <th scope="row">{{forloop.counter}}</th>
-        <td>{{medicine.medicine_name}}</td>
-        <td>{{medicine.medicine_description}}
-          <p>
-            {{ text|slice:":50" }}
-          </p>
-        </td>
-        <td>
-          <img src ="/media/{{medicine.medicine_image}}" style="height : 100px" >
-         </td>
-         <td>{{medicine.medicine_price}}</td>
-         <td>
-          <a href ="{% url 'buy_medicine' id=medicine.id %}" class ="btn btn-success m-2"> Buy</a> 
-         </td>
-        </tr>
+<div class="pagination">
+  <span class="step-links">
+    {% if page_obj.has_previous %}
+      <a href="?page=1"><button class="pre">&laquo;</button></a>
+      <a href="?page={{ page_obj.previous_page_number }}"><button class="pre">←</button></a>
+    {% endif %}
 
+    <span class="current">
+      Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+    </span>
+
+    {% if page_obj.has_next %}
+      <a href="?page={{ page_obj.next_page_number }}"><button class="pre">→</button></a>
+      <a href="?page={{ page_obj.paginator.num_pages }}"><button class="pre">&raquo;</button></a>
+    {% endif %}
+  </span>
+</div>
+      <div class="card2">
+      {% for medicine in medicines %}
+        <div class="card_con2">
+          <center><img src ="/media/{{medicine.medicine_image}}" style="height : 100px; margin-bottom: 5px;" ></center>
+          <h3>{{medicine.medicine_name}}</h3>
+          <p class="text" id="text{{medicine.id}}">{{medicine.medicine_description | slice:"0:100"}}<span class="moretext">{{medicine.medicine_description | slice:"100:"}}</span></p>
+          <p class="readmore" id="readmore{{medicine.id}}" onclick="expand({{medicine.id}})">Read More</p>
+            
+          <p>₹{{medicine.medicine_price}}</p>
+          <p>
+            <a href ="/buy-medicine/{{medicine.id}}/"><button class ="btn4">Buy</button></a> 
+          </p>
+          
+        </div>
+        
 
       {% endfor %}
-
-
-
-      <div class="pagination">
-        <span class="step-links">
-          {% if page_obj.has_previous %}
-            <a href="?page=1">&laquo; first</a>
-            <a href="?page={{ page_obj.previous_page_number }}">previous</a>
-          {% endif %}
       
-          <span class="current">
-            Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
-          </span>
-      
-          {% if page_obj.has_next %}
-            <a href="?page={{ page_obj.next_page_number }}">next</a>
-            <a href="?page={{ page_obj.paginator.num_pages }}">last &raquo;</a>
-          {% endif %}
-        </span>
       </div>
-   
-    </tbody>
-  </table>
+        <script>
+          function expand(id){
+            document.querySelector(`#text${id}`).classList.toggle('show_more');
+            if(document.querySelector(`#readmore${id}`).innerHTML === 'Read More'){
+            document.querySelector(`#readmore${id}`).innerHTML = 'Read Less';
+            }else{
+              document.querySelector(`#readmore${id}`).innerHTML = 'Read More';
+            }
+          }
+        </script>
+      
 
 </div>
-
+{% endif %}
 
 
 {% endblock %}
