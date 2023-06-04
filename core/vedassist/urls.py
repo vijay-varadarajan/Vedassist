@@ -9,6 +9,7 @@ urlpatterns = [
     path('register/' , views.register, name="register"),
     path('logout/', views.logout_page, name="logout_page"),
     path('predict/', views.predict, name='predict'),
+    path('predict2/', views.predict2, name='predict2'),
     path('register/' , views.register, name="register"),
     path('test/' , views.test, name="test"),
     path('result/' , views.result, name="result"),

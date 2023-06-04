@@ -1,11 +1,10 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, r2_score
 from sklearn.preprocessing import LabelEncoder
+import matplotlib.pyplot as plt
 import joblib
-import pickle
-import os
 
 # Load the dataset
 data = pd.read_csv('vedassist_2.csv')
@@ -32,12 +31,13 @@ X = pd.get_dummies(X)
 # Split the dataset into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y_encoded, test_size=0.2, random_state=42)
 
-# Create and train the logistic regression model
-model = LogisticRegression(max_iter=1000)
+# Create and train the Random Forest classifier
+model = RandomForestClassifier(n_estimators=100, random_state=42)
 model.fit(X_train, y_train)
 
 # Make predictions on the test set
 y_pred = model.predict(X_test)
+joblib.dump(model, 'model.pkl')
 
 # Calculate accuracy and r-squared score
 accuracy = accuracy_score(y_test, y_pred)
@@ -45,9 +45,6 @@ r2 = r2_score(y_test, y_pred)
 
 print("Accuracy:", accuracy*100,"%")
 print("R-squared Score:", r2)
-
-joblib.dump(model, 'model2.pkl')
-print("dumped")
 
 # Get user input as a comma-separated string
 user_input = input("Enter comma-separated values for Herb, Allopathic Medicine, Age, Gender, Weight, Dosage, Duration: ")
