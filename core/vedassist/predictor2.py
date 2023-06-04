@@ -21,13 +21,7 @@ def format_input(user_input):
         "Duration": [user_input[6]],
     })
     print("dataframed")
-    print(user_data)
     
-    with open("C:/Users/varad/Documents/Vedassist/core/vedassist/ml_model/codes.pkl", 'rb') as file:
-        label_codes = pickle.load(file)
-    
-        
-    print(user_data)
     return user_data
 
 def model_predict2(user_input):
