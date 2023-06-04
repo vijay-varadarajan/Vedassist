@@ -5,12 +5,12 @@
 <h2>Results of analysis</h2>
 </div>
 
-<div class="analysis" style="display: flex; justify-content: center">
+<div class="analysis" style="display: flex; justify-content: center;margin-top:20px;">
     <p>
     {% if effect == 'None' %}
-        The consumption of <b>{{allopathic_drug}}<b><i>(an allopathic drug)</i> with <b>{{herb}}</b><i>(an ayurvedic drug)</i> is predicted to not have adverse effects on your health.
+        The consumption this <i> allopathic drug </i> with<i>this ayurvedic drug</i> is predicted to not have adverse effects on your health.
     {% else %}
-        Consumption of allopathic drug '{{allopathic_drug}}' along with the ayurvedic medicine '{{herb}}'. Consumption of allopathic drug along with an ayurvedic medicine is generally harmful for the body and must be avoided as much as possible.
+        Consumption of this allopathic drug  along with the ayurvedic medicine. Consumption of allopathic drug along with an ayurvedic medicine is generally harmful for the body and must be avoided as much as possible.
     {% endif %}
     </p>
 </div>

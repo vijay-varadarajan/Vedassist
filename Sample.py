@@ -5,10 +5,9 @@ from sklearn.metrics import accuracy_score, r2_score
 from sklearn.preprocessing import LabelEncoder
 import matplotlib.pyplot as plt
 import joblib
-import pickle
 
 # Load the dataset
-data = pd.read_csv('C:/Users/varad/Documents/Vedassist/vedassist_2.csv')
+data = pd.read_csv('vedassist_2.csv')
 
 # Replace missing values with the most frequent value in each column
 data = data.fillna(data.mode().iloc[0])
@@ -17,20 +16,11 @@ data = data.fillna(data.mode().iloc[0])
 X = data.iloc[:, :-1]
 y = data.iloc[:, -1]
 
-label_codes = {}
-
 # Encode the first two columns and gender column
 label_encoder = LabelEncoder()
 X['Herb'] = label_encoder.fit_transform(X['Herb'])
-label_codes['Herb'] = label_encoder
 X['Allopathic Medicine'] = label_encoder.fit_transform(X['Allopathic Medicine'])
-label_codes['Allopathic Medicine'] = label_encoder
 X['Gender'] = label_encoder.fit_transform(X['Gender'])
-label_codes['Gender'] = label_encoder
-
-print(label_codes)
-with open("C:/Users/varad/Documents/Vedassist/core/vedassist/ml_model/codes.pkl", 'wb') as f:
-    pickle.dump(label_codes, f)
 
 # Encode the Adverse Effect column
 y_encoded = label_encoder.fit_transform(y)
@@ -47,6 +37,7 @@ model.fit(X_train, y_train)
 
 # Make predictions on the test set
 y_pred = model.predict(X_test)
+joblib.dump(model, 'model.pkl')
 
 # Calculate accuracy and r-squared score
 accuracy = accuracy_score(y_test, y_pred)
@@ -54,8 +45,6 @@ r2 = r2_score(y_test, y_pred)
 
 print("Accuracy:", accuracy*100,"%")
 print("R-squared Score:", r2)
-
-joblib.dump(model, 'model2.pkl')
 
 # Get user input as a comma-separated string
 user_input = input("Enter comma-separated values for Herb, Allopathic Medicine, Age, Gender, Weight, Dosage, Duration: ")
@@ -77,6 +66,5 @@ user_df['Gender'] = user_df['Gender'].apply(lambda x: label_encoder.transform([x
 # Make prediction based on user input
 prediction_encoded = model.predict(user_df)
 prediction = label_encoder.inverse_transform(prediction_encoded)
-
 
 print("Predicted Adverse Effect:", prediction[0])
