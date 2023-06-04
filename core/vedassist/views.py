@@ -126,8 +126,8 @@ def predict2(request):
         return HttpResponseRedirect(reverse("test"))
     
     user_input = [    
-        5,
-        2,
+        int(request.POST.get('herbs')),
+        int(request.POST.get('allopathic_drug')),
         int(request.POST.get('age')),
         int(request.POST.get('gender')),
         int(request.POST.get('weight')),
