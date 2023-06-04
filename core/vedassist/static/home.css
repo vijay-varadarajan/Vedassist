@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@500&family=Foldit:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 .home__container{
     position: relative;
@@ -291,12 +292,14 @@
     flex-direction: column;
     position: relative;
     gap: 30px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .des_headings{
 	font-size: 30px;
 	padding-top: 40px;
 	padding-left: 40px;
+    font-family: 'Raleway', sans-serif;
 }
 .des_headings_right{
 	font-size: 30px;
@@ -305,7 +308,7 @@
 	text-align: right;
 }
 .con1, .con2, .con3{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #124b05;
     background-color: #fff;
     border-radius: 30px;
@@ -314,7 +317,7 @@
     box-shadow: 2px 2px 2px #124b05;
 }
 .para_left{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 22px;
 	text-align: justify;
 	padding-right: 20px;
@@ -322,7 +325,7 @@
 	
 }
 .para_right{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 22px;
 	text-align: justify;
 	padding-left: 20px;
