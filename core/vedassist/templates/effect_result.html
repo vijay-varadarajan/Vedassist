@@ -1,22 +1,33 @@
-{% extends "base.html" %}
-
+{% extends "base.html"%}
+{% block title %} Analyser {% endblock %}
 {% block start %}
-<div class="heading">
-<h2>Results of analysis</h2>
-</div>
-
-<div class="analysis" style="display: flex; justify-content: center;margin-top:20px;">
-    <p>
-    {% if effect == 'None' %}
-        The consumption this <i> allopathic drug </i> with<i>this ayurvedic drug</i> is predicted to not have adverse effects on your health.
-    {% else %}
-        Consumption of this allopathic drug  along with the ayurvedic medicine. Consumption of allopathic drug along with an ayurvedic medicine is generally harmful for the body and must be avoided as much as possible.
-    {% endif %}
-    </p>
-</div>
-
-<div class="ps">
-    <h6>The AI/ML model trained for this prediction is 98.5% accurate</h6>
-</div>
-
+<link rel="stylesheet" href="../static/result.css">
+<section>
+  <center><h4 class="welcome">Welcome, {{request.user}} </h4>
+    <h1 class="res_head">Result</h1><br></center>
+  {% if count >= 11 %}
+  <center><h5 class="re"> Congratulation! You are Healthy </h5></center><br>
+  <p>
+    <a href ="{% url 'test' %}"><button class ="btn5">Return</button></a> 
+  </p>
+  {% else %}
+  <div class="content">
+    <div class="con_data">
+    <div class="card3">
+      <div class="ch2">
+        <p>
+          {% if effect == 'None' %}
+              The consumption the selected <i> allopathic drug </i> with<i>the selected ayurvedic drug</i> is predicted to not have adverse effects on your health.
+          {% else %}
+              Consumption of allopathic drug along with an ayurvedic medicine is generally harmful for the body and must be avoided as much as possible.
+          {% endif %}
+          </p>
+      </div>
+      <div class="ch2">
+        <h6 style="font-size: 25px;"><b>The AI/ML model trained for this prediction is 98.5% accurate</b></h6>
+      </div>
+    </div>
+</section>
+  {% endif %}
 {% endblock %}
+

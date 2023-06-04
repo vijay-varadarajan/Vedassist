@@ -4,7 +4,7 @@ import joblib
 import os
 
 
-downloads_dir = os.path.join("", "C:/Users/varad/Documents/Vedassist/core/vedassist/ml_model/model2.pkl")
+downloads_dir = os.path.join("", "D:/devsoc hack/Vedassist/Vedassist/core/vedassist/ml_model/model2.pkl")
 regressor = joblib.load(downloads_dir)
 object_cols = ['Herb', 'Allopathic Medicine', 'Age', 'Gender', 'Weight', 'Dosage', 'Duration']
 
@@ -23,10 +23,7 @@ def format_input(user_input):
     print("dataframed")
     print(user_data)
     
-    with open("C:/Users/varad/Documents/Vedassist/core/vedassist/ml_model/codes.pkl", 'rb') as file:
-        label_codes = pickle.load(file)
     
-        
     print(user_data)
     return user_data
 
