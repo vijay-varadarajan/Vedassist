@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -41,7 +42,7 @@
     text-align: left;
     font-size: 60px;
     font-weight: 600;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Lobster', cursive;
     background: -webkit-linear-gradient(rgb(90, 249, 50), rgb(9, 206, 9), rgb(2, 72, 2));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

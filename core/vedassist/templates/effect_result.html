@@ -1,0 +1,60 @@
+{% extends "base.html"%}
+{% block title %} Analyser {% endblock %}
+{% block start %}
+<link rel="stylesheet" href="../static/result.css">
+<section>
+  <center><h4 class="welcome">Welcome, {{request.user}} </h4>
+    <h1 class="res_head">Result</h1><br></center>
+  {% if count >= 11 %}
+  <center><h5 class="re"> Congratulation! You are Healthy </h5></center><br>
+  <p>
+    <a href ="{% url 'test' %}"><button class ="btn5">Return</button></a> 
+  </p>
+  {% else %}
+  <div class="content">
+    <div class="con_data">
+    <div class="card3">
+      {% for queryset in queryset1 %}
+      <div class="ch2">
+        
+        <p>{{ context.medicine1 }}</p>
+        <center><img src ="/media/{{queryset.medicine_image}}" style="height : 100px; margin-bottom: 5px;" ></center>
+        <p>
+          <a href ="/buy-medicine/{{queryset.id}}/"><button class ="btn4">Buy</button></a> 
+        </p>
+      </div>
+      {% endfor %}
+      {% for queryset in queryset2 %}
+      <div class="ch2">
+        
+        <p>{{  context.medicine2 }}</p>
+        <center><img src ="/media/{{queryset.medicine_image}}" style="height : 100px; margin-bottom: 5px;" ></center>
+        <p>
+          <a href ="/buy-medicine/{{queryset.id}}/"><button class ="btn4">Buy</button></a> 
+        </p>
+      </div>
+      {% endfor %}
+      {% for queryset in queryset3 %}
+      <div class="ch2">
+        
+        <p>{{ context.medicine3 }}</p>
+        <center><img src ="/media/{{queryset.medicine_image}}" style="height : 100px; margin-bottom: 5px;" ></center>
+        <p>
+          <a href ="/buy-medicine/{{queryset.id}}/"><button class ="btn4">Buy</button></a> 
+        </p>
+      </div>
+      {% endfor %}
+    </div>
+    <p>
+      <a href ="{% url 'test' %}"><button class ="btn5">Return</button></a> 
+    </p>
+    <div class="graph">
+    <div>
+    <iframe title="Vedassist Statistics 2 - Page 1" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=68f3d1a9-d05e-4dda-aa81-2c05b13278ee&autoAuth=true&ctid=d4963ce2-af94-4122-95a9-644e8b01624d" frameborder="0" allowFullScreen="true"></iframe>
+    </div>
+    </div>
+  </div>
+</section>
+  {% endif %}
+{% endblock %}
+
