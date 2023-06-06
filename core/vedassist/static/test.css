@@ -49,6 +49,51 @@
     margin-top: 90px;
 
 }
+.btn3{
+    padding: 1.1rem 2rem;
+    background: none;
+    border: 2px solid green;
+    font-size: 15px;
+    color: #d7f194;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+    border-radius: 4px;
+    background-color: rgb(37, 138, 37);
+    font-weight: bolder;
+    box-shadow: 1px 1px 6px #013405;
+    width: 160px;
+    height: 59px;
+    margin-top: 0;
+    margin-bottom: 90px;
+}
+.btn3:before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 120%;
+    background-color: #b3f50e;
+    top: 50%;
+    transform: skewX(30deg) translate(-150%,-50%);
+    transition: all 0.5s;
+    overflow: hidden;
+}
+.btn3:hover{
+    background-color: #67f706;
+    color: #3b750c;
+    font-weight: 700;
+    border-color: #67f706;
+    letter-spacing: 0.25em;
+    box-shadow: 5px 5px 10px rgb(41, 249, 9);
+}
+.btn3:hover::before{
+    transform: skewX(30deg) translate(150%,-50%);
+    transition-delay: 0.1s;
+}
+.btn3:active{
+    transform: scale(0.9);
+}
 .cold{
     position: relative;
     font-size: 25px;
@@ -155,6 +200,51 @@
 .btn2:active{
     transform: scale(0.9);
 }
+.btn6{
+    background: none;
+    border: 2px solid green;
+    font-size: 10px;
+    color: #d7f194;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+    border-radius: 4px;
+    background-color: rgb(37, 138, 37);
+    font-weight: bolder;
+    box-shadow: 1px 1px 6px #013405;
+    width: 100px;
+    height: 40px;
+    margin-top: 0;
+    right: 0;
+}
+.btn6:before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 120%;
+    background-color: #b3f50e;
+    top: 50%;
+    transform: skewX(30deg) translate(-150%,-50%);
+    transition: all 0.5s;
+    overflow: hidden;
+}
+.btn6:hover{
+    background-color: #67f706;
+    color: #3b750c;
+    font-weight: 700;
+    border-color: #67f706;
+    letter-spacing: 0.25em;
+    box-shadow: 5px 5px 10px rgb(41, 249, 9);
+}
+.btn6:hover::before{
+    transform: skewX(30deg) translate(150%,-50%);
+    transition-delay: 0.1s;
+}
+.btn6:active{
+    transform: scale(0.9);
+}
+
 .opti{
     display: flex;
     flex-wrap: nowrap;
