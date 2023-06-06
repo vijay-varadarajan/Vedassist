@@ -3,13 +3,27 @@
 {% block start %}
 {% if user%}
 <link rel="stylesheet" href="../static/shop.css">
-<div class="mt-5" style="background-color: rgb(174, 255, 163)">
+<div class="mt-5" style="background-color: rgb(174, 255, 163); padding-top: 35px">
     <div class="mx-auto col-6">
+      {% if messages %}
+        {{ message.tags }}
 
+        {% for message in messages %}
+          {% if message == 'Successful payment' %}
+            <div class="alert alert-success" role="alert">
+                {{message}}
+            </div>
+          {% else %}
+            <div class="alert alert-warning" role="alert">
+              {{message}}
+            </div>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
       <form> 
         <div class="mb-3" style="display: flex; flex-direction: column">
           <label for="exampleInputEmail1" class="form-label" style="position: relative; margin-top: 30px; font-weight: 700; font-size: 26px">Search Medicine</label>
-          <input name="search" type="text" class="inputbox">
+          <input name="search" type="text" class="inputbox" placeholder="Search by name / price / details">
         </div>
         <br>
         <button type="submit" class="btn4">Search</button>
@@ -35,7 +49,7 @@
     {% endif %}
   </span>
 </div>
-      <div class="card2">
+      <div class="card2" style="background-color: rgba(230, 227, 227, 0.79); padding-top: 30px; margin-left: 40px; margin-right: 40px; border-radius: 20px">
       {% for medicine in medicines %}
         <div class="card_con2">
           <center><img src ="/media/{{medicine.medicine_image}}" style="height : 100px; margin-bottom: 5px;" ></center>
