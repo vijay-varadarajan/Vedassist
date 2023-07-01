@@ -232,7 +232,7 @@ def buy_medicine(request, id):      #also regiser this rout to urls.py
             'currency_code': 'USD',
             'notify_url': f'http://{host}{reverse("paypal-ipn")}',
             'return_url': f'http://{host}{reverse("paypal-return")}',
-            'cancel_return': f'http://{host}{reverse("paypal-cancel")}',
+            'cancel_return': f'http://{host}{reverse("paypal-cancel")}',    
         }
         form = PayPalPaymentsForm(initial=paypal_dict)
         context = {'form': form, 'queryset': queryset, }

@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     
-    cursor: url(../static/cursor.png),auto;
+    cursor: url(../static/images/cursor.png),auto;
 }
 section{
     position: relative;

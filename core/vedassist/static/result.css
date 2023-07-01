@@ -1,12 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    cursor: url(../static/cursor.png);
+    cursor: url(../static/images/cursor.png);
 }
 section{
     margin: 0;
     padding: 0;
-    background-image: url('../static/Backdrop\ 4.jpg');
+    background-image: url('../static/images/Backdrop\ 4.jpg');
     background-size: 1550px;
     background-repeat: no-repeat;
 }

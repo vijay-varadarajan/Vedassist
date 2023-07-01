@@ -1,0 +1,7 @@
+django
+django-paypal
+logging
+uuid
+os
+sys
+pathlib

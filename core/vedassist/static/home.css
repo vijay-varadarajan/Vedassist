@@ -165,7 +165,7 @@
     }
 }
 *{
-    cursor: url(../static/cursor.png),auto;
+    cursor: url(../static/images/cursor.png),auto;
 }
 .gallery{
     display: flex;
@@ -188,19 +188,19 @@
     margin-bottom: 40px;
 }
 .card:nth-child(1){
-    background-image: url('../static/Screenshot\ 2023-06-02\ 161432.png');
+    background-image: url('../static/images/Screenshot\ 2023-06-02\ 161432.png');
     background-size: 300px;
 }
 .card:nth-child(2){
-    background-image: url('../static/neem.png');
+    background-image: url('../static/images/neem.png');
     background-size: 300px;
 }
 .card:nth-child(3){
-    background-image: url('../static/aloevera.png');
+    background-image: url('../static/images/aloevera.png');
     background-size: 300px;
 }
 .card:nth-child(4){
-    background-image: url('../static/haldi.png');
+    background-image: url('../static/images/haldi.png');
     background-size: 300px;
 }
 .card:not(:first-child){
@@ -236,19 +236,19 @@
         height: 300px;
     }
     .card:nth-child(1){
-        background-image: url('../static/Screenshot\ 2023-06-02\ 161432.png');
+        background-image: url('../static/images/Screenshot\ 2023-06-02\ 161432.png');
         background-size: 300px;
     }
     .card:nth-child(2){
-        background-image: url('../static/neem.png');
+        background-image: url('../static/images/neem.png');
         background-size: 300px;
     }
     .card:nth-child(3){
-        background-image: url('../static/aloevera.png');
+        background-image: url('../static/images/aloevera.png');
         background-size: 300px;
     }
     .card:nth-child(4){
-        background-image: url('../static/haldi.png');
+        background-image: url('../static/images/haldi.png');
         background-size: 300px;
     }
 }
@@ -269,19 +269,19 @@
         height: 200px;
     }
     .card:nth-child(1){
-        background-image: url('../static/Screenshot\ 2023-06-02\ 161432.png');
+        background-image: url('../static/images/Screenshot\ 2023-06-02\ 161432.png');
         background-size: 200px;
     }
     .card:nth-child(2){
-        background-image: url('../static/neem.png');
+        background-image: url('../static/images/neem.png');
         background-size: 200px;
     }
     .card:nth-child(3){
-        background-image: url('../static/aloevera.png');
+        background-image: url('../static/images/aloevera.png');
         background-size: 200px;
     }
     .card:nth-child(4){
-        background-image: url('../static/haldi.png');
+        background-image: url('../static/images/haldi.png');
         background-size: 200px;
     }
 }
